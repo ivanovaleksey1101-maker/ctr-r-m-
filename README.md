@@ -32,7 +32,18 @@ English by default.
 
 # How launch?
 
-## Loading Lib (For Linux)
+## Loading Lib
+
+### For Windows
+
+1. Install Python from https://www.python.org/downloads/ (check "Add Python to PATH")
+2. Install VLC media player from https://www.videolan.org/vlc/
+
+```batch
+load_lib.bat
+```
+
+### For Linux
 
 ```bash
 chmod +x load_lib.sh
@@ -41,7 +52,13 @@ chmod +x load_lib.sh
 
 ## Launch
 
-### For Arch
+### For Windows
+
+```batch
+launch_game.bat
+```
+
+### For Arch 
 
 ```bash
 source venv/bin/activate
