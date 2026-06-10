@@ -11,7 +11,7 @@ The `name` of the game may **not correspond** to reality. The `code` does **not 
 
 ### How to switch language?
 
-Edit the `language` parameter when creating the `Game` object in `main.py`:
+Edit the `language` parameter when creating the `Game` object at end of `main.py`:
 
 ```python
 game = Game(language="en")   # English
@@ -26,7 +26,7 @@ The intro plays **every time** you launch the game.
 
 ### How to disable intro?
 
-To disable the intro you need to change it in `main.py`:
+To disable the intro you need to change at end of `main.py`:
 
 ```python
 m.intro()   # You can remove this line.
@@ -40,7 +40,9 @@ m.intro()   # You can remove this line.
 | Explore | Me |
 | Fight | Me |
 
-## Locations
+This music in folder `music`. You can download this music.
+
+## Locations Game
 
 - **Cave**: enemy: goblin, raider, mouse.
 - **Dark Cave**: enemy: big mouse, monster.
