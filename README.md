@@ -1,6 +1,10 @@
 # Game "Classic Text RPG - Retro (Music)"
 
-## Offical Languages
+## Main about Game
+
+The `name` of the game may **not correspond** to reality. The `code` does **not hack** your device and the `code` is **absolutely safe**. The `code` uses an **isolation environment** to run on **Linux**. 
+
+## Languages in Game
 
 - Russian (Русский)
 - English
@@ -11,7 +15,7 @@ Edit the `language` parameter when creating the `Game` object in `main.py`:
 
 ```python
 game = Game(language="en")   # English
-game = Game(language="ru")   # Русский
+game = Game(language="ru")   # Russian (Русский)
 ```
 
 English by default.
