@@ -20,6 +20,18 @@ game = Game(language="ru")   # Russian (Русский)
 
 English by default.
 
+## Intro
+
+The intro plays **every time** you launch the game.
+
+### How to disable intro?
+
+To disable the intro you need to change it in `main.py`:
+
+```python
+m.intro()   # You can remove this line.
+```
+
 ## Music
 
 | Music Name | Autor |
